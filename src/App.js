@@ -4,6 +4,7 @@ import Bio from "./components/Bio";
 import SocialMedia from "./components/SocialMedia";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
 
 class App extends React.Component {
   onLeave(origin, destination, direction) {
@@ -17,7 +18,7 @@ class App extends React.Component {
     return (
       <ReactFullpage
         scrollOverflow={true}
-        scrollingSpeed={750}
+        scrollingSpeed={500}
         loopBottom={true}
         loopTop={true}
         //scrollBar={true}
@@ -43,7 +44,7 @@ class App extends React.Component {
                 <Projects />
               </div>
               <div className="section">
-                <p>aca van un boton de contacto</p>
+                <Contact />
               </div>
             </div>
           );
