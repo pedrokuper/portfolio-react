@@ -1,0 +1,22 @@
+$primary: #000;
+$secondary: #2f2f2f;
+
+.skills-wrapper {
+  display: flex;
+  min-width: 400px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  font-size: 6rem;
+  flex-wrap: wrap;
+
+  .icon {
+    margin: 0 25px;
+    color: $secondary;
+  }
+}
+
+.skills-title {
+  text-align: center;
+  font-size: 3rem;
+  color: $primary;
+}
