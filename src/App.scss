@@ -1,3 +1,5 @@
+$secondary: #2f2f2f;
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.social-icons-wrapper {
+  display: flex;
+  max-width: 850px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+  font-size: 5.5rem;
+  flex-wrap: no-wrap;
+
+  .icon {
+    margin: 0 5px;
+
+    color: $secondary;
+
+    &:hover {
+      color: #505050;
+    }
+  }
+}
+
+.section {
+  background-color: #f7f7f7;
 }

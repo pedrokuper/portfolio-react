@@ -1,0 +1,25 @@
+.wrapper {
+  display: inline-flex;
+  flex-direction: column;
+  max-width: 900px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 0 50px;
+
+  .title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .thumbnail {
+    width: 500px;
+    flex-grow: 0;
+    box-shadow: 1px 1px 6px #eee;
+    transition: ease-in-out 300ms;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}
