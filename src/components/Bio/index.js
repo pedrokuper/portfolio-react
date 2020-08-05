@@ -20,7 +20,7 @@ class Bio extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            CourseIT
+            CourseIt
           </a>
           , y descubrí un mundo fascinante: el desarrollo web. Actualmente estoy
           buscando mi primera experiencia en este ámbito y estoy ansioso por
