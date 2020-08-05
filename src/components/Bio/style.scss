@@ -12,6 +12,10 @@ $secondary: #2f2f2f;
     width: 165px;
     border-radius: 50%;
     box-shadow: 2px 2px 3px rgb(141, 141, 141);
+
+    @media screen and (max-width: 640px) and (min-width: 320px) {
+      width: 135px;
+    }
   }
 
   .bio-text {
@@ -19,6 +23,10 @@ $secondary: #2f2f2f;
     font-size: 1.3rem;
     max-width: 750px;
     color: $secondary;
+
+    @media screen and (max-width: 640px) and (min-width: 320px) {
+      font-size: 1.2rem;
+    }
 
     .link {
       color: $secondary;

@@ -52,6 +52,7 @@ class App extends React.Component {
         loopBottom={true}
         loopTop={true}
         navigation={true}
+        //scrollBar={true}
         //sectionsColor={["#F7F7F7", "#fff","#F7F7F7"]}
         onLeave={this.onLeave.bind(this)}
         afterLoad={this.afterLoad.bind(this)}
@@ -137,7 +138,7 @@ class App extends React.Component {
                 <Projects />
               </div>
               <div className="section">
-                <Lottie options={defaultOptions} height={150} width={150} />
+                <Lottie options={defaultOptions} height={125} width={125} />
                 <Section mail="pkupersmit@gmail.com" title="CONTACTO" />
               </div>
             </div>
