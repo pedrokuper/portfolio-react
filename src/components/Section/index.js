@@ -8,12 +8,9 @@ class Section extends React.Component {
         <h2 className="section-title">{this.props.title}</h2>
         <p className="text">{this.props.text}</p>
         <div className="section-img-wrapper">
-          <img className="section-img" src={this.props.img} />
+          <img className="section-img" src={this.props.img} alt="profile" />
         </div>
-        <a
-          className="mail"
-          href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=pkupersmit@gmail.com"
-        >
+        <a className="mail" href="mailto:pkupersmit@gmail.com">
           {this.props.mail}
         </a>
         <p className="text">{this.props.description}</p>
