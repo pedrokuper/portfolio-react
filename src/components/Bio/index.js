@@ -13,7 +13,7 @@ class Bio extends React.Component {
           Me formé como Diseñador de Imagen y Sonido en la Universidad de Buenos
           Aires. Tengo más de 10 años de experiencia trabajando como Editor de
           video y animador motion graphics para cine, tv y digital. Comencé a
-          estudiar Desarrollo Web en{" "}
+          estudiar en{" "}
           <a
             href="https://courseit.com.ar/"
             className="link"
