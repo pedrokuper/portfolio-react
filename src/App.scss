@@ -7,16 +7,17 @@ $secondary: #2f2f2f;
   justify-content: center;
   font-size: 4.5rem;
   flex-wrap: nowrap;
+  padding: 30px;
 
   @media screen and (max-width: 640px) and (min-width: 320px) {
     flex-wrap: wrap;
-    font-size: 3.5rem;
-    margin-top: -65px;
+    font-size: 3.2rem;
+    margin-top: -50px;
   }
 
   .icon {
     margin-left: 10px;
-    
+
     color: $secondary;
 
     &:hover {

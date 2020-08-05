@@ -7,6 +7,11 @@ $secondary: #2f2f2f;
   align-items: center;
   .bio-title {
     font-size: 2.5rem;
+
+    @media screen and (max-width: 640px) and (min-width: 320px) {
+      font-size: 1.4rem;
+      margin-top: -10px;
+    }
   }
   .bio-img {
     width: 165px;
@@ -14,7 +19,7 @@ $secondary: #2f2f2f;
     box-shadow: 2px 2px 3px rgb(141, 141, 141);
 
     @media screen and (max-width: 640px) and (min-width: 320px) {
-      width: 135px;
+      width: 100px;
     }
   }
 
@@ -25,7 +30,8 @@ $secondary: #2f2f2f;
     color: $secondary;
 
     @media screen and (max-width: 640px) and (min-width: 320px) {
-      font-size: 1.2rem;
+      font-size: 0.95rem;
+      padding: 0 30px;
     }
 
     .link {

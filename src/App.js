@@ -138,7 +138,9 @@ class App extends React.Component {
                 <Projects />
               </div>
               <div className="section">
-                <Lottie options={defaultOptions} height={125} width={125} />
+                <div className="lottie">
+                  {/* <Lottie options={defaultOptions} height={100} width={125} /> */}
+                </div>
                 <Section mail="pkupersmit@gmail.com" title="CONTACTO" />
               </div>
             </div>
