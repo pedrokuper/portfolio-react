@@ -1,37 +1,22 @@
 [
   {
     "name": "Newsletter",
-    "thumbnail": "https://i.postimg.cc/3R5pvt3t/newsletter.jpg",
+    "thumbnail": "https://i.postimg.cc/T3T7RHYm/newsletter.png",
     "url": "https://pedrokuper.github.io/maquetado-newsletter/"
   },
   {
     "name": "Perritos Random",
-    "thumbnail": "https://i.postimg.cc/W1y022CL/random-dogs.png",
+    "thumbnail": "https://i.postimg.cc/d3dH0byR/random-dogs.png",
     "url": "https://perritosrandom.now.sh/"
   },
   {
     "name": "RickRolled",
-    "thumbnail": "https://i.postimg.cc/yNScxMCJ/rick-rolled.png",
+    "thumbnail": "https://i.postimg.cc/1tb7smf5/rick-rolled.png",
     "url": "https://nohagasclick.now.sh/"
   },
   {
-    "name": "Espacio Mutante",
-    "thumbnail": "https://i.postimg.cc/pLrDb90J/espacio-mutante.png",
+    "name": "Espacio Mutante {WIP}",
+    "thumbnail": "https://i.postimg.cc/dQTSnyx7/espacio-mutante.png",
     "url": "https://espaciomutante.now.sh/"
-  },
-  {
-    "name": "",
-    "thumbnail": "",
-    "url": ""
-  },
-  {
-    "name": "",
-    "thumbnail": "",
-    "url": ""
-  },
-  {
-    "name": "",
-    "thumbnail": "",
-    "url": ""
   }
 ]

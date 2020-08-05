@@ -1,23 +1,32 @@
 $secondary: #2f2f2f;
 
 .bio-wrapper {
-  padding: 20px;
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   .bio-title {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
   .bio-img {
-    width: 175px;
+    width: 165px;
     border-radius: 50%;
-    box-shadow: 2px 1px 3px rgb(141, 141, 141);
+    box-shadow: 2px 2px 3px rgb(141, 141, 141);
   }
 
   .bio-text {
     text-align: justify;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     max-width: 750px;
     color: $secondary;
+
+    .link {
+      color: $secondary;
+
+      &:link {
+        color: $secondary;
+        text-decoration: none;
+      }
+    }
   }
 }

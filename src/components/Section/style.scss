@@ -10,10 +10,16 @@ $secondary: #2f2f2f;
   align-items: center;
 
   .section-title {
-    margin-top: -25px;
-    text-align: justify;
-    max-width: 850px;
-    font-size: 3rem;
+    margin-top: -55px;
+    text-align: center;
+    max-width: 900px;
+    font-size: 2.5rem;
+
+    @media screen and (max-width: 640px) and (min-width: 360px) {
+      margin-top: 25px;
+      font-size: 2.4rem;
+      text-align: center;
+    }
   }
 
   .section-img-wrapper {
@@ -28,13 +34,18 @@ $secondary: #2f2f2f;
 
   .text {
     text-align: justify;
-    font-size: 1.5rem;
-    max-width: 750px;
+    font-size: 1.7rem;
+    max-width: 850px;
     color: $secondary;
   }
 
   .mail {
     margin-top: -50px;
-    font-size: 2.5rem;
+    font-size: 1.9rem;
+
+    @media screen and (max-width: 640px) and (min-width: 360px) {
+      font-size: 1.6rem;
+      margin-top: -50px;
+    }
   }
 }

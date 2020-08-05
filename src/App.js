@@ -26,6 +26,7 @@ import pp from "./assets/img/pp.jpg";
 import "./App.scss";
 import Projects from "./components/Projects";
 import Section from "./components/Section";
+import Bio from "./components/Bio";
 
 class App extends React.Component {
   onLeave(origin, destination, direction) {
@@ -59,7 +60,10 @@ class App extends React.Component {
             <div id="fullpage-wrapper">
               <div className="section">
                 <div className="social-media">
-                  <Section title="Hola, me llamo Pedro y soy desarrollador web front-end." />
+                  <Section
+                    title="¡Hola! Me llamo Pedro y soy un desarrollador web Front-End, apasionado por la tecnología, la web y el detrás de escena del mundo digital."
+                    text="Encontrá mas información sobre mi en los siguientes links:"
+                  />
                   <div className="social-icons-wrapper">
                     <a
                       href="https://www.linkedin.com/in/pedrokupersmit/"
@@ -110,8 +114,14 @@ class App extends React.Component {
                 <Section title="ABOUT" img={pp} description="lorem ipsum" />
               </div> */}
               <div className="section">
+                <Bio />
+              </div>
+              <div className="section">
                 <div>
-                  <Section title="SKILLS" />
+                  <Section
+                    title="SKILLS"
+                    text="Algunas de las tecnologías que manejo:"
+                  />
                   <div className="social-icons-wrapper">
                     <FaHtml5 className="icon" />
                     <FaCss3Alt className="icon" />
@@ -139,15 +149,3 @@ class App extends React.Component {
 }
 
 export default App;
-
-// <div id="fullpage-wrapper">
-//   <div className="section">
-//
-//   </div>
-//   <div className="section">
-//
-//   </div>
-//
-//
-//   </div>
-// </div>
