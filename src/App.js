@@ -1,8 +1,7 @@
 //Librerias
 import React from "react";
 import ReactFullpage from "@fullpage/react-fullpage";
-import Lottie from "react-lottie";
-import animationData from "./lottie/data.json";
+
 //React-Icons
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -20,7 +19,6 @@ import { FaReact } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";
 
 //Data externa
-import pp from "./assets/img/pp.jpg";
 
 //Componentes
 import "./App.scss";
@@ -37,14 +35,6 @@ class App extends React.Component {
   }
 
   render() {
-    const defaultOptions = {
-      loop: true,
-      autoplay: true,
-      animationData: animationData,
-      rendererSettings: {
-        preserveAspectRatio: "xMidYMid slice"
-      }
-    };
     return (
       <ReactFullpage
         scrollOverflow={true}

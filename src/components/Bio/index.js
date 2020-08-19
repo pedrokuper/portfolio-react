@@ -23,9 +23,8 @@ class Bio extends React.Component {
             CourseIt
           </a>
           , y descubrí un mundo fascinante: el desarrollo web. Actualmente estoy
-          buscando mi primera experiencia en este ámbito y estoy ansioso por
-          trabajar y aprender lo máximo posible en el marco de proyectos
-          profesionales.
+          buscando mi primera experiencia en este ámbito y tengo muchas ganas de
+          trabajar y aprender en el marco de proyectos profesionales.
         </p>
       </div>
     );

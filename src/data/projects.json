@@ -1,22 +1,32 @@
 [
   {
+    "name": "Netflix Copycat",
+    "thumbnail": "https://i.postimg.cc/WztQj1Tt/courflix.jpg",
+    "url": "https://pkuper-courflix.now.sh/",
+    "github": "https://github.com/pedrokuper/courflix"
+  },
+  {
     "name": "Newsletter",
     "thumbnail": "https://i.postimg.cc/T3T7RHYm/newsletter.png",
-    "url": "https://pedrokuper.github.io/maquetado-newsletter/"
+    "url": "https://pedrokuper.github.io/maquetado-newsletter/",
+    "github": "https://github.com/pedrokuper/maquetado-newsletter"
   },
   {
     "name": "Perritos Random",
     "thumbnail": "https://i.postimg.cc/d3dH0byR/random-dogs.png",
-    "url": "https://perritosrandom.now.sh/"
-  },
-  {
-    "name": "RickRolled",
-    "thumbnail": "https://i.postimg.cc/1tb7smf5/rick-rolled.png",
-    "url": "https://nohagasclick.now.sh/"
+    "url": "https://perritosrandom.now.sh/",
+    "github": "https://github.com/pedrokuper/random-dogs"
   },
   {
     "name": "Espacio Mutante {WIP}",
     "thumbnail": "https://i.postimg.cc/dQTSnyx7/espacio-mutante.png",
-    "url": "https://espaciomutante.now.sh/"
+    "url": "https://espaciomutante.now.sh/",
+    "github": "https://github.com/pedrokuper/espacio-mutante"
+  },
+  {
+    "name": "RickRolled",
+    "thumbnail": "https://i.postimg.cc/1tb7smf5/rick-rolled.png",
+    "url": "https://nohagasclick.now.sh/",
+    "github": "https://github.com/pedrokuper/rickrolled"
   }
 ]
