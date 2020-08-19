@@ -52,7 +52,7 @@ class App extends React.Component {
               <div className="section">
                 <div className="social-media">
                   <Section
-                    title="¡Hola! Me llamo Pedro y soy un desarrollador web Front-End, apasionado por la tecnología, la web y el detrás de escena del mundo digital."
+                    title="¡Hola! Me llamo Pedro y soy el desarrollador web Front-End que estabas buscando :)"
                     text="Encontrá mas información sobre mi en los siguientes links:"
                   />
                   <div className="social-icons-wrapper">
