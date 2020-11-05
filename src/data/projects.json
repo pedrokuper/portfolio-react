@@ -1,9 +1,9 @@
 [
   {
-    "name": "Netflix Copycat",
+    "name": "Netflix Clone",
     "thumbnail": "https://i.postimg.cc/WztQj1Tt/courflix.jpg",
-    "url": "https://pkuper-courflix.now.sh/",
-    "github": "https://github.com/pedrokuper/courflix"
+    "url": "https://courflix-react-pk.vercel.app",
+    "github": "https://github.com/pedrokuper/courflix-react"
   },
   {
     "name": "Newsletter",

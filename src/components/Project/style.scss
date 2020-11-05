@@ -13,11 +13,18 @@
 
     @media screen and (max-width: 640px) and (min-width: 320px) {
       font-size: 0.9rem;
+      margin-bottom: 30px;
     }
   }
 
   .github-link {
     margin-top: -30px;
+    font-size: 2rem;
+
+    @media screen and (max-width: 640px) and (min-width: 320px) {
+      font-size: 1.5rem;
+      
+    }
   }
 
   .thumbnail {

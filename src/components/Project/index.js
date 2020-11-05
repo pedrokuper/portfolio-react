@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.scss";
+import { FaGithub } from "react-icons/fa";
 class Project extends React.Component {
   render() {
     const { url, thumbnail, name, github } = this.props.project;
@@ -8,13 +9,14 @@ class Project extends React.Component {
         <div class="item-wrapper">
           <p className="title">{name}</p>
           <a
-            class="github-link"
+            className="github-link"
             href={github}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>GitHub</p>
+            <FaGithub />
           </a>
+
           <a href={url} target="_blank" rel="noopener noreferrer">
             <img className="thumbnail" src={thumbnail} alt={`${name}`} />
           </a>
