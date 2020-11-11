@@ -5,7 +5,7 @@ class Project extends React.Component {
   render() {
     const { url, thumbnail, name, github } = this.props.project;
     return (
-      <React.Fragment>
+      <>
         <div class="item-wrapper">
           <p className="title">{name}</p>
           <a
@@ -21,7 +21,7 @@ class Project extends React.Component {
             <img className="thumbnail" src={thumbnail} alt={`${name}`} />
           </a>
         </div>
-      </React.Fragment>
+      </>
     );
   }
 }

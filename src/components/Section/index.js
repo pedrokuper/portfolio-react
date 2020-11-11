@@ -3,17 +3,18 @@ import "./style.scss";
 
 class Section extends React.Component {
   render() {
+    const { title, text, img, description, mail } = this.props;
     return (
       <div className="container-wrapper">
-        <h2 className="section-title">{this.props.title}</h2>
-        <p className="text">{this.props.text}</p>
+        <h2 className="section-title">{title}</h2>
+        <p className="text">{text}</p>
         <div className="section-img-wrapper">
-          <img className="section-img" src={this.props.img} alt="" />
+          <img className="section-img" src={img} alt="" />
         </div>
         <a className="mail" href="mailto:pkupersmit@gmail.com">
-          {this.props.mail}
+          {mail}
         </a>
-        <p className="text">{this.props.description}</p>
+        <p className="text">{description}</p>
       </div>
     );
   }

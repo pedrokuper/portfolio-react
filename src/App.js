@@ -52,8 +52,8 @@ class App extends React.Component {
               <div className="section">
                 <div className="social-media">
                   <Section
-                    title="¡Hola! Me llamo Pedro y soy el desarrollador web Front-End que estabas buscando :)"
-                    text="Encontrá mas información sobre mi en los siguientes links:"
+                    title="¡Hola! Me llamo Pedro y soy  Front-End Developer :)"
+                    text="Encontrá mas información sobre mi en los siguientes links"
                   />
                   <div className="social-icons-wrapper">
                     <a
@@ -101,20 +101,15 @@ class App extends React.Component {
                   </div>
                 </div>
               </div>
-              {/* <div className="section">
-                <Section title="ABOUT" img={pp} description="lorem ipsum" />
-              </div> */}
-              <div className="section">
-                <Bio />
-              </div>
               <div className="section">
                 <div>
                   <Section
                     title="SKILLS"
-                    text="Algunas de las tecnologías que manejo:"
+                    text="Algunas de las tecnologías que manejo"
                   />
                   <div className="social-icons-wrapper">
                     <FaHtml5 className="icon" />
+
                     <FaCss3Alt className="icon" />
                     <FaSass className="icon" />
                     <IoLogoJavascript className="icon" />
