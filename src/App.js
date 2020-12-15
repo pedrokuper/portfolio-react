@@ -9,7 +9,8 @@ import { FaTwitterSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaBehanceSquare } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa";
-
+import { SiNextDotJs } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaGitSquare } from "react-icons/fa";
@@ -17,14 +18,13 @@ import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";
-
+import { FaNodeJs } from "react-icons/fa";
 //Data externa
 
 //Componentes
 import "./App.scss";
 import Projects from "./components/Projects";
 import Section from "./components/Section";
-import Bio from "./components/Bio";
 
 class App extends React.Component {
   onLeave(origin, destination, direction) {
@@ -70,13 +70,7 @@ class App extends React.Component {
                     >
                       <FaGithub className="icon" />
                     </a>
-                    <a
-                      href="https://twitter.com/_pedrokuper"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaTwitterSquare className="icon" />
-                    </a>
+
                     <a
                       href="https://www.youtube.com/user/kaaze7/"
                       target="_blank"
@@ -109,11 +103,15 @@ class App extends React.Component {
                   />
                   <div className="social-icons-wrapper">
                     <FaHtml5 className="icon" />
+                    <div className="test"></div>
 
                     <FaCss3Alt className="icon" />
+                    <SiTailwindcss className="icon" />
                     <FaSass className="icon" />
                     <IoLogoJavascript className="icon" />
+                    <FaNodeJs className="icon" />
                     <FaReact className="icon" />
+                    <SiNextDotJs className="icon" />
                     <FaGitSquare className="icon" />
                     <FaLinux className="icon" />
                   </div>
