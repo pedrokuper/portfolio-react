@@ -23,5 +23,11 @@
     "thumbnail": "https://i.postimg.cc/mg7V1YwL/rickrolled.jpg",
     "url": "https://nohagasclick.now.sh/",
     "github": "https://github.com/pedrokuper/rickrolled"
+  },
+  {
+    "name": "Who's that Pokémon?",
+    "thumbnail": "https://i.postimg.cc/pTCgVBQg/whosthatpokemon.png",
+    "url": "https://whosthatpokemon1.vercel.app/",
+    "github": "https://github.com/luciamoyano/whosthatpokemon"
   }
 ]
