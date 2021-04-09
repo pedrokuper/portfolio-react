@@ -11,12 +11,6 @@
     "url": "https://pedrokuper.github.io/maquetado-newsletter/",
     "github": "https://github.com/pedrokuper/maquetado-newsletter"
   },
-  {
-    "name": "Perritos Random",
-    "thumbnail": "https://i.postimg.cc/d3dH0byR/random-dogs.png",
-    "url": "https://perritosrandom.now.sh/",
-    "github": "https://github.com/pedrokuper/random-dogs"
-  },
 
   {
     "name": "RickRolled",
@@ -29,5 +23,11 @@
     "thumbnail": "https://i.postimg.cc/pTCgVBQg/whosthatpokemon.png",
     "url": "https://whosthatpokemon1.vercel.app/",
     "github": "https://github.com/luciamoyano/whosthatpokemon"
+  },
+  {
+    "name": "María Pirsch - Fotografía",
+    "thumbnail": "https://i.postimg.cc/c4JTJFFK/Screenshot-2021-04-05-Mar-a-Pirsch-Fotograf-a.png",
+    "url": "https://mariapirsch.vercel.app/",
+    "github": "https://github.com/pedrokuper/portfolio-mery"
   }
 ]

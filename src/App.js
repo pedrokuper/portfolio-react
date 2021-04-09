@@ -11,6 +11,7 @@ import { FaBehanceSquare } from "react-icons/fa";
 import { FaCodepen } from "react-icons/fa";
 import { SiNextDotJs } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
+import { SiMaterialUi } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaGitSquare } from "react-icons/fa";
@@ -107,6 +108,7 @@ class App extends React.Component {
 
                     <FaCss3Alt className="icon" />
                     <SiTailwindcss className="icon" />
+                    <SiMaterialUi className="icon" />
                     <FaSass className="icon" />
                     <IoLogoJavascript className="icon" />
                     <FaNodeJs className="icon" />
