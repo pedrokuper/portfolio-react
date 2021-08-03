@@ -6,7 +6,7 @@ class Project extends React.Component {
     const { url, thumbnail, name, github } = this.props.project;
     return (
       <>
-        <div class="item-wrapper">
+        <div className="item-wrapper">
           <p className="title">{name}</p>
           <a
             className="github-link"
