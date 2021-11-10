@@ -5,13 +5,7 @@ import ReactFullpage from "@fullpage/react-fullpage";
 //React-Icons
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
-import { FaBehanceSquare } from "react-icons/fa";
-import { FaCodepen } from "react-icons/fa";
 import { SiNextDotJs } from "react-icons/si";
-import { SiTailwindcss } from "react-icons/si";
-import { SiMaterialUi } from "react-icons/si";
 import { FaSass } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 import { FaGitSquare } from "react-icons/fa";
@@ -20,6 +14,7 @@ import { FaCss3Alt } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaLinux } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
 //Data externa
 
 //Componentes
@@ -52,10 +47,7 @@ class App extends React.Component {
             <div id="fullpage-wrapper">
               <div className="section">
                 <div className="social-media">
-                  <Section
-                    title="¡Hola! Me llamo Pedro y soy  Front-End Developer :)"
-                    text="Encontrá mas información sobre mi en los siguientes links"
-                  />
+                  <Section title="¡Hola! Me llamo Pedro y soy  Front-End Developer :)" />
                   <div className="social-icons-wrapper">
                     <a
                       href="https://www.linkedin.com/in/pedrokupersmit/"
@@ -71,28 +63,6 @@ class App extends React.Component {
                     >
                       <FaGithub className="icon" />
                     </a>
-
-                    <a
-                      href="https://www.youtube.com/user/kaaze7/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaYoutube className="icon" />
-                    </a>
-                    <a
-                      href="https://www.behance.net/PedroKupersmit"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaBehanceSquare className="icon" />
-                    </a>
-                    <a
-                      href="https://codepen.io/thefragil3"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <FaCodepen className="icon" />
-                    </a>
                   </div>
                 </div>
               </div>
@@ -107,8 +77,6 @@ class App extends React.Component {
                     <div className="test"></div>
 
                     <FaCss3Alt className="icon" />
-                    <SiTailwindcss className="icon" />
-                    <SiMaterialUi className="icon" />
                     <FaSass className="icon" />
                     <IoLogoJavascript className="icon" />
                     <FaNodeJs className="icon" />
@@ -116,6 +84,7 @@ class App extends React.Component {
                     <SiNextDotJs className="icon" />
                     <FaGitSquare className="icon" />
                     <FaLinux className="icon" />
+                    <DiMongodb className="icon" />
                   </div>
                 </div>
               </div>
