@@ -3,16 +3,16 @@ $secondary: #2f2f2f;
 .social-icons-wrapper {
   display: flex;
   max-width: 850px;
-  margin: 0 auto;
+  margin: auto;
   justify-content: center;
   font-size: 4.5rem;
   flex-wrap: nowrap;
   padding: 30px;
+  margin-top: -85px;
 
   @media screen and (max-width: 640px) and (min-width: 320px) {
     flex-wrap: wrap;
     font-size: 3.2rem;
-    margin-top: -70px;
   }
 
   .icon {

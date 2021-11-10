@@ -47,7 +47,7 @@ class App extends React.Component {
             <div id="fullpage-wrapper">
               <div className="section">
                 <div className="social-media">
-                  <Section title="¡Hola! Me llamo Pedro y soy  Front-End Developer :)" />
+                  <Section title="¡Hola!  Me llamo Pedro y soy Fullstack Developer" />
                   <div className="social-icons-wrapper">
                     <a
                       href="https://www.linkedin.com/in/pedrokupersmit/"
